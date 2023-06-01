@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Clientes", "01.Clientes", "{AD37F425-AD84-4367-B048-CD4C2D659E53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Api", "02. Api", "{6294607E-7B0D-4A64-B7E6-FFCF6A10D73F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Services", "03. Services", "{93727797-D0E1-43A1-8771-3F27D052C261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Productos", "01.Productos", "{6B4CE08A-672B-4869-A5A0-22C8FBF4B81B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Proveedores", "02. Proveedores", "{28EC43AA-7AE3-4DAF-9BAC-7D988472B144}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Recepecion", "03. Recepecion", "{06FFF5F5-67C7-4B68-89DB-8CD370F41248}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cetus.Api", "src\services\Proveedores\Proveedores.Api\Cetus.Api.csproj", "{F6E23640-4DF2-4177-BE3F-D59E3717E650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Api", "01.Api", "{9B6D230D-B440-4D83-9251-CA3690963B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Services", "02.Services", "{6838188F-AA20-4736-AB4B-EE515B93AAFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Models", "03.Models", "{22DAC900-33D8-4E33-AF7C-45B7C97E254D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "proveedores.domain", "src\services\Proveedores\proveedores.domain\proveedores.domain.csproj", "{156F7939-DB2B-4802-B481-B4525D917F71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Persistent", "04.Persistent", "{3D563503-06BE-4636-8531-DD94859FA9AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proveedores.Persistente.Database", "src\services\Proveedores\Proveedores.Persistente.Database\Proveedores.Persistente.Database.csproj", "{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6E23640-4DF2-4177-BE3F-D59E3717E650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E23640-4DF2-4177-BE3F-D59E3717E650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E23640-4DF2-4177-BE3F-D59E3717E650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E23640-4DF2-4177-BE3F-D59E3717E650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156F7939-DB2B-4802-B481-B4525D917F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156F7939-DB2B-4802-B481-B4525D917F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156F7939-DB2B-4802-B481-B4525D917F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156F7939-DB2B-4802-B481-B4525D917F71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B4CE08A-672B-4869-A5A0-22C8FBF4B81B} = {93727797-D0E1-43A1-8771-3F27D052C261}
+		{28EC43AA-7AE3-4DAF-9BAC-7D988472B144} = {93727797-D0E1-43A1-8771-3F27D052C261}
+		{06FFF5F5-67C7-4B68-89DB-8CD370F41248} = {93727797-D0E1-43A1-8771-3F27D052C261}
+		{F6E23640-4DF2-4177-BE3F-D59E3717E650} = {28EC43AA-7AE3-4DAF-9BAC-7D988472B144}
+		{9B6D230D-B440-4D83-9251-CA3690963B58} = {28EC43AA-7AE3-4DAF-9BAC-7D988472B144}
+		{6838188F-AA20-4736-AB4B-EE515B93AAFB} = {28EC43AA-7AE3-4DAF-9BAC-7D988472B144}
+		{22DAC900-33D8-4E33-AF7C-45B7C97E254D} = {28EC43AA-7AE3-4DAF-9BAC-7D988472B144}
+		{156F7939-DB2B-4802-B481-B4525D917F71} = {22DAC900-33D8-4E33-AF7C-45B7C97E254D}
+		{3D563503-06BE-4636-8531-DD94859FA9AB} = {28EC43AA-7AE3-4DAF-9BAC-7D988472B144}
+		{2920A0E3-8B0B-49B0-B240-D13DB06EDBFB} = {3D563503-06BE-4636-8531-DD94859FA9AB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D40998B-E4EE-43B1-87C3-746602106185}
+	EndGlobalSection
+EndGlobal
